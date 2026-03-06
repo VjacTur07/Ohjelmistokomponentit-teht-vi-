@@ -1,16 +1,11 @@
 import * as React from "react";
 
-function OpiskelijaTiedot() {
-  const opiskelija = {
-    nimi: "Matti Meikäläinen",
-    ika: 16,
-    kurssi: "Reactin perusteet",
-  };
+function OpiskelijaTiedot(props) {
   return (
     <div>
-      <p>Nimi: {opiskelija.nimi}</p>
-      <p>Ikä: {opiskelija.ika}</p>
-      <p>Kurssi: {opiskelija.kurssi}</p>
+      <p>Nimi: {props.opiskelija.nimi}</p>
+      <p>Ikä: {props.opiskelija.ika}</p>
+      <p>Kurssi: {props.opiskelija.kurssi}</p>
     </div>
   );
 }

@@ -3,10 +3,16 @@ import Hello from "./Tervehdys";
 import OpiskelijaTiedot from "./OpiskelijaTiedot";
 
 function App() {
+  const opiskelijaProps = {
+    nimi: "Matti Meikäläinen",
+    ika: 16,
+    kurssi: "Reactin perusteet",
+  };
+
   return (
     <div>
       <Hello />
-      <OpiskelijaTiedot />
+      <OpiskelijaTiedot opiskelija={opiskelijaProps} />
     </div>
   );
 }
