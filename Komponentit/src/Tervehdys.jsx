@@ -2,7 +2,7 @@ import * as React from "react";
 
 function Hello() {
   const name = "Vjaceslavs";
-  return <p>Hei {name}!</p>;
+  return <h2>Hei {name}!</h2>;
 }
 
 export default Hello;
