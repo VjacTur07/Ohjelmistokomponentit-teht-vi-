@@ -3,6 +3,7 @@ import Hello from "./Tervehdys";
 import OpiskelijaTiedot from "./OpiskelijaTiedot";
 import Infolista from "./Infolista";
 import Linkkilista from "./Linkkilista";
+import Kayttajakortti from "./Kayttajakortti";
 
 function App() {
   const linkit = [
@@ -24,6 +25,7 @@ function App() {
       <OpiskelijaTiedot opiskelija={opiskelijaProps} />
       <Infolista taulukko={tiedot} />
       <Linkkilista lista={linkit} />
+      <Kayttajakortti nimi="Ville" lista={["React", "JavaScript", "CSS"]} />
     </div>
   );
 }
