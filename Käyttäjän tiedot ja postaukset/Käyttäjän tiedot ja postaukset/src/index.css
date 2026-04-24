@@ -1,0 +1,65 @@
+.task-card {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #f1f8f4;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(130, 160, 140, 0.1);
+  border: 1px solid #e2eee6;
+}
+
+.user-info-section {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.user-info-section h2 {
+  color: #5a7d66;
+  margin-top: 0;
+}
+
+.nav-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  background-color: #c8e6d1;
+  color: #4a6352;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-btn:hover:not(:disabled) {
+  background-color: #b3d9be;
+  transform: translateY(-1px);
+}
+
+.nav-btn:disabled {
+  background-color: #e0e0e0;
+  color: #a0a0a0;
+  cursor: not-allowed;
+}
+
+.posts-list {
+  list-style: none;
+  padding: 0;
+}
+
+.posts-list li {
+  padding: 10px;
+  border-bottom: 1px solid #edf5ef;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.posts-list li:last-child {
+  border-bottom: none;
+}
+
+.loading-text {
+  color: #8fbca0;
+  font-style: italic;
+  font-weight: bold;
+}
